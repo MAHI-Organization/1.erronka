@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Salmentak>
+    <Salmenta>
+        <id>1</id>
+        <orderId>1</orderId>
+        <priceTotal>13158.75</priceTotal>
+        <priceUnit>145.0</priceUnit>
+        <produktua>
+            <productId>2</productId>
+            <productName>Intel Core i5-10400F prosezatzailea</productName>
+        </produktua>
+        <quantity>75</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>2</id>
+        <orderId>2</orderId>
+        <priceTotal>1990.45</priceTotal>
+        <priceUnit>329.0</priceUnit>
+        <produktua>
+            <productId>3</productId>
+            <productName>Acer Aspire 3</productName>
+        </produktua>
+        <quantity>5</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>3</id>
+        <orderId>3</orderId>
+        <priceTotal>23028.72</priceTotal>
+        <priceUnit>1586.0</priceUnit>
+        <produktua>
+            <productId>7</productId>
+            <productName>Lenovo Thinkpad X1</productName>
+        </produktua>
+        <quantity>12</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>4</id>
+        <orderId>4</orderId>
+        <priceTotal>1953.0</priceTotal>
+        <priceUnit>279.0</priceUnit>
+        <produktua>
+            <productId>5</productId>
+            <productName>Apple Airpods</productName>
+        </produktua>
+        <quantity>7</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>5</id>
+        <orderId>5</orderId>
+        <priceTotal>14.52</priceTotal>
+        <priceUnit>12.0</priceUnit>
+        <produktua>
+            <productId>1</productId>
+            <productName>Acer USB xagua</productName>
+        </produktua>
+        <quantity>1</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>6</id>
+        <orderId>6</orderId>
+        <priceTotal>453.75</priceTotal>
+        <priceUnit>375.0</priceUnit>
+        <produktua>
+            <productId>4</productId>
+            <productName>Iphone 11 64 GB</productName>
+        </produktua>
+        <quantity>1</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>7</id>
+        <orderId>7</orderId>
+        <priceTotal>1012.77</priceTotal>
+        <priceUnit>279.0</priceUnit>
+        <produktua>
+            <productId>5</productId>
+            <productName>Apple Airpods</productName>
+        </produktua>
+        <quantity>3</quantity>
+    </Salmenta>
+</Salmentak>
