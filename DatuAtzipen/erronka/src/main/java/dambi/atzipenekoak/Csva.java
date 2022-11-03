@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Locale;
 
+import dambi.pojoak.Bezeroa;
+import dambi.pojoak.Bezeroak;
 import dambi.pojoak.Produktua;
 import dambi.pojoak.Salmenta;
 import dambi.pojoak.Salmentak;
@@ -73,5 +75,35 @@ public class Csva {
             System.out.println("Ez da fitxategia aurkitu");
         }
         return guztira;
+    }
+
+    public Bezeroak irakurriBezeroak() throws IOException{
+        Bezeroak bezeroak = new Bezeroak();
+        try (BufferedReader inputStream = new BufferedReader(new FileReader(strFileIn))){
+            String banatzailea = ";";
+            String l;
+            int bezeroZenb = 0;
+            while ((l = inputStream.readLine()) != null) {
+                String [] zutabeak = l.split(banatzailea);
+                if(bezeroZenb != 0){
+                    Bezeroa bezeroa = new Bezeroa();
+                    bezeroa.setId(Integer.parseInt(zutabeak[0]));
+                    bezeroa.setName(zutabeak[1]);
+                    bezeroa.setStreet(zutabeak[2]);
+                    bezeroa.setZip(Integer.parseInt(zutabeak[3]));
+                    bezeroa.setCity(zutabeak[4]);
+                    bezeroa.setEmail(zutabeak[5]);
+                    bezeroa.setPhone(Integer.parseInt(zutabeak[6]));
+                    bezeroa.setMobile(Integer.parseInt(zutabeak[7]));
+                    bezeroa.setCustomerRank(Integer.parseInt(zutabeak[8]));
+                    bezeroak.add(bezeroa);
+                }
+                bezeroZenb++;
+            }
+            inputStream.close();
+        }catch(FileNotFoundException e){
+            System.out.println("Ez da fitxategia aurkitu");
+        }
+        return bezeroak;
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Bezeroak>
+    <Bezeroa>
+        <id>26</id>
+        <name>Andoni Beristain</name>
+        <street>Deba</street>
+        <zip>20654</zip>
+        <city>Deba</city>
+        <email>andonib@gmail.com</email>
+        <phone>947120365</phone>
+        <mobile>697410205</mobile>
+    </Bezeroa>
+    <Bezeroa>
+        <id>27</id>
+        <name>Unai Garcia</name>
+        <street>Elgoibar</street>
+        <zip>20900</zip>
+        <city>Elgoibar</city>
+        <email>unaig@gmail.com</email>
+        <phone>942150410</phone>
+        <mobile>641225354</mobile>
+    </Bezeroa>
+</Bezeroak>

@@ -29,7 +29,6 @@ public class Salmentak {
             this.salmentak = new ArrayList<Salmenta>();
         }
         this.salmentak.add( salmenta );
-
     }
 
     @Override

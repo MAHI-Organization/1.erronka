@@ -2,6 +2,7 @@ package dambi.atzipenekoak;
 
 import java.io.File;
 
+import dambi.pojoak.Bezeroak;
 import dambi.pojoak.Produktua;
 import dambi.pojoak.Salmenta;
 import dambi.pojoak.Salmentak;
@@ -60,4 +61,23 @@ public class Xmla {
         }
         return salmentak.getSalmentak().size();
     }
+
+    public Bezeroak irakurriBezeroak(){
+        /* init jaxb marshaler */
+        Bezeroak bezeroak = null;
+        try{
+           File file = new File( strFileIn);
+           JAXBContext jaxbContext = JAXBContext.newInstance( Bezeroak.class);
+
+           /**
+            * the only difference with the marshaling operation is here
+            */
+           Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+           bezeroak = (Bezeroak)jaxbUnmarshaller.unmarshal(file);
+       
+        }catch(JAXBException e){
+           e.printStackTrace();
+        }
+       return bezeroak;
+   }
 }
