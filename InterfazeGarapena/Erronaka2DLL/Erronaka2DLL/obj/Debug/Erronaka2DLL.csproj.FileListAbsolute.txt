@@ -1,0 +1,8 @@
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\bin\Debug\Erronaka2DLL.dll
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\bin\Debug\Erronaka2DLL.pdb
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.csproj.AssemblyReference.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.UserControl1.resources
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.csproj.GenerateResource.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.csproj.CoreCompileInputs.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.dll
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronaka2DLL\Erronaka2DLL\obj\Debug\Erronaka2DLL.pdb
