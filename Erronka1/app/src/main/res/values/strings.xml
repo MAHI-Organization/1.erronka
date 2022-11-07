@@ -1,0 +1,3 @@
+<resources>
+    <string name="logo" src="@drawable/mahilogo">mahilogo</string>
+</resources>
