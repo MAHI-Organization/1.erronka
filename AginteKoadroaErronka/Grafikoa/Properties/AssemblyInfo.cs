@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsFormsControlLibrary1")]
+[assembly: AssemblyTitle("Grafikoa")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsControlLibrary1")]
+[assembly: AssemblyProduct("Grafikoa")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("67a36ad6-02d8-4f57-8638-90d3cb38317b")]
+[assembly: Guid("8ebaa0af-637b-4b99-84e7-5741d98b975a")]
 
 // Version information for an assembly consists of the following four values:
 //

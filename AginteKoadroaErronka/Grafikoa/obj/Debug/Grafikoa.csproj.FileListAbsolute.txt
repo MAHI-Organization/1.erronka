@@ -1,0 +1,8 @@
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\bin\Debug\Grafikoa.dll
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\bin\Debug\Grafikoa.pdb
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.csproj.AssemblyReference.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.Grafikoa.resources
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.csproj.GenerateResource.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.csproj.CoreCompileInputs.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.dll
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\Grafikoa\obj\Debug\Grafikoa.pdb

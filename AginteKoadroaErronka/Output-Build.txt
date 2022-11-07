@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: WindowsFormsApp1, Configuration: Debug Any CPU ------
+1>  WindowsFormsApp1 -> C:\Users\rodriguez.markel\Documents\GitHub\MAHI_Taldea\AginteKoadroaErronka\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========

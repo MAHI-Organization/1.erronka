@@ -1,0 +1,10 @@
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\bin\Debug\AginteKoadroaErronka.exe.config
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\bin\Debug\AginteKoadroaErronka.exe
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\bin\Debug\AginteKoadroaErronka.pdb
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.csproj.AssemblyReference.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.csproj.SuggestedBindingRedirects.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.Properties.Resources.resources
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.csproj.GenerateResource.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.csproj.CoreCompileInputs.cache
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.exe
+C:\Users\rodriguez.markel\Desktop\Azteerketa_C\AginteKoadroaErronka\AginteKoadroaErronka\obj\Debug\AginteKoadroaErronka.pdb

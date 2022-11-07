@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsControlLibrary1
+﻿namespace Grafikoa
 {
-    partial class UserControl1
+    partial class Grafikoa
     {
         /// <summary>
         /// Required designer variable.
@@ -31,45 +31,37 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // chart1
             // 
-            this.chart1.BackColor = System.Drawing.Color.Transparent;
             chartArea1.AxisX.MajorGrid.Enabled = false;
             chartArea1.AxisY.MajorGrid.Enabled = false;
-            chartArea1.BackColor = System.Drawing.Color.Transparent;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
             this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Enabled = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series2";
             this.chart1.Series.Add(series1);
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(446, 357);
+            this.chart1.Size = new System.Drawing.Size(333, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
-            // UserControl1
+            // Grafikoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.chart1);
-            this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(449, 357);
+            this.Name = "Grafikoa";
+            this.Size = new System.Drawing.Size(333, 301);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 

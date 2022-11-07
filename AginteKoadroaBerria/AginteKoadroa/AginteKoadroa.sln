@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AginteKoadroa", "AginteKoadroa\AginteKoadroa.csproj", "{DA359D02-E1C3-4F3D-B76D-1D15281A51B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafikoa", "Grafikoa\Grafikoa.csproj", "{832CED47-6ED0-4CFA-A829-F54A9B004276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA359D02-E1C3-4F3D-B76D-1D15281A51B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA359D02-E1C3-4F3D-B76D-1D15281A51B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA359D02-E1C3-4F3D-B76D-1D15281A51B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA359D02-E1C3-4F3D-B76D-1D15281A51B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832CED47-6ED0-4CFA-A829-F54A9B004276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832CED47-6ED0-4CFA-A829-F54A9B004276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832CED47-6ED0-4CFA-A829-F54A9B004276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832CED47-6ED0-4CFA-A829-F54A9B004276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B841A5D7-7B25-4388-BE12-AAD0B1A22A9A}
+	EndGlobalSection
+EndGlobal

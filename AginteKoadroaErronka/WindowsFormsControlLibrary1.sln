@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControlLibrary1", "WindowsFormsControlLibrary1\WindowsFormsControlLibrary1.csproj", "{67A36AD6-02D8-4F57-8638-90D3CB38317B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafikoa", "WindowsFormsControlLibrary1\Grafikoa.csproj", "{67A36AD6-02D8-4F57-8638-90D3CB38317B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{6FBA9265-54DA-40E7-8F86-F4A39E391D4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AginteKoadroa", "WindowsFormsApp1\AginteKoadroa.csproj", "{6FBA9265-54DA-40E7-8F86-F4A39E391D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
