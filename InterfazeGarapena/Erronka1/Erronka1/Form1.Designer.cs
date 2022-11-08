@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.erronka_grafikoa1 = new erronka1DLL.erronka_grafikoa();
-            this.erronka_grafikoa2 = new Erronaka2DLL.UserControl1();
             this.label1 = new System.Windows.Forms.Label();
             this.npgsqlCommand1 = new Npgsql.NpgsqlCommand();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -57,6 +55,19 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.erronka_grafikoa1 = new erronka1DLL.erronka_grafikoa();
+            this.erronka_grafikoa2 = new erronka1DLL.erronka_grafikoa();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -69,23 +80,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
-            // 
-            // erronka_grafikoa1
-            // 
-            this.erronka_grafikoa1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.erronka_grafikoa1.Location = new System.Drawing.Point(21, 429);
-            this.erronka_grafikoa1.Name = "erronka_grafikoa1";
-            this.erronka_grafikoa1.Size = new System.Drawing.Size(162, 173);
-            this.erronka_grafikoa1.TabIndex = 0;
-            this.erronka_grafikoa1.Load += new System.EventHandler(this.erronka_grafikoa1_Load);
-            // 
-            // erronka_grafikoa2
-            // 
-            this.erronka_grafikoa2.Location = new System.Drawing.Point(139, 461);
-            this.erronka_grafikoa2.Name = "erronka_grafikoa2";
-            this.erronka_grafikoa2.Size = new System.Drawing.Size(64, 55);
-            this.erronka_grafikoa2.TabIndex = 1;
             // 
             // label1
             // 
@@ -346,23 +347,165 @@
             this.label12.TabIndex = 2;
             this.label12.Text = "label12";
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.panel7.Controls.Add(this.pictureBox10);
+            this.panel7.Controls.Add(this.pictureBox9);
+            this.panel7.Controls.Add(this.pictureBox8);
+            this.panel7.Controls.Add(this.button3);
+            this.panel7.Controls.Add(this.button2);
+            this.panel7.Controls.Add(this.button1);
+            this.panel7.Location = new System.Drawing.Point(12, 127);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(235, 719);
+            this.panel7.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.button1.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button1.Location = new System.Drawing.Point(74, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 35);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Salmentak";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // erronka_grafikoa1
+            // 
+            this.erronka_grafikoa1.BackColor = System.Drawing.Color.Transparent;
+            this.erronka_grafikoa1.Location = new System.Drawing.Point(843, 251);
+            this.erronka_grafikoa1.Name = "erronka_grafikoa1";
+            this.erronka_grafikoa1.Size = new System.Drawing.Size(682, 584);
+            this.erronka_grafikoa1.TabIndex = 0;
+            this.erronka_grafikoa1.Load += new System.EventHandler(this.erronka_grafikoa1_Load);
+            // 
+            // erronka_grafikoa2
+            // 
+            this.erronka_grafikoa2.Location = new System.Drawing.Point(243, 252);
+            this.erronka_grafikoa2.Name = "erronka_grafikoa2";
+            this.erronka_grafikoa2.Size = new System.Drawing.Size(660, 530);
+            this.erronka_grafikoa2.TabIndex = 8;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.button2.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button2.Location = new System.Drawing.Point(74, 349);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 35);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Produktuak";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.button3.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button3.Location = new System.Drawing.Point(74, 255);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(125, 35);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Bezeroak";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.panel8.Controls.Add(this.pictureBox7);
+            this.panel8.Controls.Add(this.label13);
+            this.panel8.Location = new System.Drawing.Point(12, 6);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(235, 100);
+            this.panel8.TabIndex = 7;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(70, 34);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(153, 20);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "AGINTE KOADROA";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(11, 20);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(19, 164);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(49, 44);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 10;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(11, 336);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 11;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(15, 255);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(53, 35);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 12;
+            this.pictureBox10.TabStop = false;
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(310, 49);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(558, 286);
+            this.listView1.TabIndex = 9;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(49)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1557, 858);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.erronka_grafikoa1);
-            this.Controls.Add(this.erronka_grafikoa2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.erronka_grafikoa2);
+            this.Controls.Add(this.erronka_grafikoa1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.Red;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -382,6 +525,13 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -389,7 +539,6 @@
         #endregion
 
         private erronka1DLL.erronka_grafikoa erronka_grafikoa1;
-        private Erronaka2DLL.UserControl1 erronka_grafikoa2;
         private System.Windows.Forms.Label label1;
         private Npgsql.NpgsqlCommand npgsqlCommand1;
         private System.Windows.Forms.Panel panel1;
@@ -416,6 +565,18 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.HelpProvider helpProvider1;
+        private erronka1DLL.erronka_grafikoa erronka_grafikoa2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 

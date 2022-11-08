@@ -103,7 +103,7 @@ namespace Erronka1
                   .Include("res_partner")
                   .GroupBy(b => b.res_partner.name)
                   .OrderByDescending(group => group.Sum(b => b.price_total))
-                  .Take(3)
+                  .Take(5)
                   .ToDictionary(g => g.Key, g => g.Sum(b => b.price_total));
 
 
@@ -114,7 +114,7 @@ namespace Erronka1
                         var kontrolak = erronka_grafikoa1.Controls.OfType<System.Windows.Forms.DataVisualization.Charting.Chart>();
                         foreach (var kontrola in kontrolak)
                         {
-                            kontrola.Titles[0].Text = "DIRU GEHIAGO GASTATU DUTEN TOP(HIRU) BEZEROAK";
+                            kontrola.Titles[0].Text = "DIRU GEHIAGO GASTATU DUTEN TOP(Bost) BEZEROAK";
                             kontrola.DataSource = salmentaData;
                             kontrola.Series[0].YValueMembers = "Value";
                             kontrola.Series[0].XValueMember = "Key";
@@ -133,6 +133,7 @@ namespace Erronka1
                         var kontrolak = erronka_grafikoa2.Controls.OfType<System.Windows.Forms.DataVisualization.Charting.Chart>();
                         foreach (var kontrola in kontrolak)
                         {
+                            kontrola.Series[0].ChartType = SeriesChartType.Column;
                             kontrola.Titles[0].Text = "PRODUKTUEN SALMENTA KOPURUA";
                             kontrola.DataSource = produktuData;
                             kontrola.Series[0].YValueMembers = "Value";
@@ -160,6 +161,11 @@ namespace Erronka1
         }
 
         private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }

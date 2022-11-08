@@ -138,10 +138,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Erronaka2DLL\Erronaka2DLL\Erronaka2DLL.csproj">
-      <Project>{F0B51825-CFB1-4487-9AC4-696D45F741A3}</Project>
-      <Name>Erronaka2DLL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\erronka1DLL\erronka1DLL\erronka1DLL.csproj">
       <Project>{666C1DF3-0C8A-48C2-99F2-422A6C1FCFAD}</Project>
       <Name>erronka1DLL</Name>

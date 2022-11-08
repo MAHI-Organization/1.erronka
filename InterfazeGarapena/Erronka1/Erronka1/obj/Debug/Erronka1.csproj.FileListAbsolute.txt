@@ -43,5 +43,3 @@ C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\MySqlConn
 C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\MySqlConnector.xml
 C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\Erronaka2DLL.dll
-C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\Erronka1\Erronka1\bin\Debug\Erronaka2DLL.pdb
