@@ -1,0 +1,8 @@
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\bin\Debug\HilabetekoSalmentak.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\bin\Debug\HilabetekoSalmentak.pdb
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.csproj.AssemblyReference.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.csproj.GenerateResource.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.csproj.CoreCompileInputs.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.pdb
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\HilabetekoSalmentak\HilabetekoSalmentak\obj\Debug\HilabetekoSalmentak.HilabetekoSalmentak.resources

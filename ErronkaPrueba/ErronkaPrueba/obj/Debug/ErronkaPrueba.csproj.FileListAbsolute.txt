@@ -1,0 +1,8 @@
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\bin\Debug\ErronkaPrueba.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\bin\Debug\ErronkaPrueba.pdb
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.csproj.AssemblyReference.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.ErronkaPrueba.resources
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.csproj.GenerateResource.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.csproj.CoreCompileInputs.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ErronkaPrueba\ErronkaPrueba\obj\Debug\ErronkaPrueba.pdb

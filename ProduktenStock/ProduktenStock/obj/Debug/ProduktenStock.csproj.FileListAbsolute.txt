@@ -1,0 +1,8 @@
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\bin\Debug\ProduktenStock.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\bin\Debug\ProduktenStock.pdb
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.csproj.AssemblyReference.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.ProduktuenStock.resources
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.csproj.GenerateResource.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.csproj.CoreCompileInputs.cache
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.dll
+C:\Users\soto.aitzol\Desktop\Erronka1\IG\ProduktenStock\ProduktenStock\obj\Debug\ProduktenStock.pdb
