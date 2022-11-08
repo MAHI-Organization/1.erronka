@@ -148,7 +148,7 @@ namespace WindowsFormsApp1
 
             conn = new NpgsqlConnection(connection);
             conn.Open();
-            string sql = "select product_template.id, product_template.name, product_template.list_price, stock_change_product_qty.new_quantity from product_template inner join stock_change_product_qty on product_template.id = stock_change_product_qty.product_tmpl_id ";
+            string sql = "select product_template.id, product_template.name, product_template.list_price, stock_quant.quantity from product_template inner join stock_quant on product_template.id = stock_quant.product_id where stock_quant.inventory_quantity_set = true";
 
             NpgsqlCommand command = new NpgsqlCommand(sql, conn);
            

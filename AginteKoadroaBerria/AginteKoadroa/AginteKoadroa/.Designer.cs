@@ -28,33 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.grafikoa1 = new Grafikoa.Grafikoa();
-            this.grafikoa2 = new Grafikoa.Grafikoa();
+            this.listViewBezeroak = new System.Windows.Forms.ListView();
+            this.listViewProduktuak = new System.Windows.Forms.ListView();
+            this.listViewSalmentak = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
-            // grafikoa1
+            // listViewBezeroak
             // 
-            this.grafikoa1.BackColor = System.Drawing.SystemColors.Control;
-            this.grafikoa1.Location = new System.Drawing.Point(-3, 304);
-            this.grafikoa1.Name = "grafikoa1";
-            this.grafikoa1.Size = new System.Drawing.Size(558, 296);
-            this.grafikoa1.TabIndex = 0;
+            this.listViewBezeroak.HideSelection = false;
+            this.listViewBezeroak.Location = new System.Drawing.Point(46, 28);
+            this.listViewBezeroak.Name = "listViewBezeroak";
+            this.listViewBezeroak.Size = new System.Drawing.Size(448, 228);
+            this.listViewBezeroak.TabIndex = 0;
+            this.listViewBezeroak.UseCompatibleStateImageBehavior = false;
+            this.listViewBezeroak.View = System.Windows.Forms.View.Details;
             // 
-            // grafikoa2
+            // listViewProduktuak
             // 
-            this.grafikoa2.BackColor = System.Drawing.SystemColors.Control;
-            this.grafikoa2.Location = new System.Drawing.Point(536, 304);
-            this.grafikoa2.Name = "grafikoa2";
-            this.grafikoa2.Size = new System.Drawing.Size(558, 296);
-            this.grafikoa2.TabIndex = 1;
+            this.listViewProduktuak.HideSelection = false;
+            this.listViewProduktuak.Location = new System.Drawing.Point(619, 28);
+            this.listViewProduktuak.Name = "listViewProduktuak";
+            this.listViewProduktuak.Size = new System.Drawing.Size(419, 228);
+            this.listViewProduktuak.TabIndex = 1;
+            this.listViewProduktuak.UseCompatibleStateImageBehavior = false;
+            this.listViewProduktuak.View = System.Windows.Forms.View.Details;
+            // 
+            // listViewSalmentak
+            // 
+            this.listViewSalmentak.HideSelection = false;
+            this.listViewSalmentak.Location = new System.Drawing.Point(295, 316);
+            this.listViewSalmentak.Name = "listViewSalmentak";
+            this.listViewSalmentak.Size = new System.Drawing.Size(521, 245);
+            this.listViewSalmentak.TabIndex = 2;
+            this.listViewSalmentak.UseCompatibleStateImageBehavior = false;
+            this.listViewSalmentak.View = System.Windows.Forms.View.Details;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 603);
-            this.Controls.Add(this.grafikoa2);
-            this.Controls.Add(this.grafikoa1);
+            this.Controls.Add(this.listViewSalmentak);
+            this.Controls.Add(this.listViewProduktuak);
+            this.Controls.Add(this.listViewBezeroak);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -64,8 +80,9 @@
 
         #endregion
 
-        private Grafikoa.Grafikoa grafikoa1;
-        private Grafikoa.Grafikoa grafikoa2;
+        private System.Windows.Forms.ListView listViewBezeroak;
+        private System.Windows.Forms.ListView listViewProduktuak;
+        private System.Windows.Forms.ListView listViewSalmentak;
     }
 }
 
