@@ -108,7 +108,30 @@ namespace AginteKoadroa
 
                 listViewBezeroak.Items.Add(item);
             }
+            
+            listViewBezeroProduktuak.Columns.Add("izena");
+            listViewBezeroProduktuak.Columns.Add("produktua");
+            listViewBezeroProduktuak.Columns.Add("kopurua");
+            
+            
+            conn = new NpgsqlConnection(connection);
+            conn.Open();
+            sql = "select res_partner.name,sale_order_line.name,Sum(sale_order_line.qty_invoiced) from res_partner inner join sale_order_line on res_partner.id = sale_order_line.order_partner_id group by res_partner.name, sale_order_line.name ";
 
+            command = new NpgsqlCommand(sql, conn);
+
+            dr = command.ExecuteReader();
+            while (dr.Read())
+            {
+                ListViewItem item = new ListViewItem(dr.GetString(0).ToString());
+                item.SubItems.Add(dr.GetString(1).ToString());
+                item.SubItems.Add(dr.GetInt32(2).ToString());
+
+
+
+
+                listViewBezeroProduktuak.Items.Add(item);
+            }
 
         }
 
