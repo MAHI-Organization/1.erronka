@@ -77,4 +77,59 @@
         </produktua>
         <quantity>3</quantity>
     </Salmenta>
+    <Salmenta>
+        <id>8</id>
+        <orderId>8</orderId>
+        <priceTotal>9595.3</priceTotal>
+        <priceUnit>1586.0</priceUnit>
+        <produktua>
+            <productId>7</productId>
+            <productName>Lenovo Thinkpad X1</productName>
+        </produktua>
+        <quantity>5</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>9</id>
+        <orderId>9</orderId>
+        <priceTotal>2.0</priceTotal>
+        <priceUnit>1.0</priceUnit>
+        <produktua>
+            <productId>1</productId>
+            <productName>Acer USB xagua</productName>
+        </produktua>
+        <quantity>2</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>10</id>
+        <orderId>10</orderId>
+        <priceTotal>337.59</priceTotal>
+        <priceUnit>279.0</priceUnit>
+        <produktua>
+            <productId>5</productId>
+            <productName>Apple Airpods</productName>
+        </produktua>
+        <quantity>1</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>11</id>
+        <orderId>11</orderId>
+        <priceTotal>337.59</priceTotal>
+        <priceUnit>279.0</priceUnit>
+        <produktua>
+            <productId>5</productId>
+            <productName>Apple Airpods</productName>
+        </produktua>
+        <quantity>1</quantity>
+    </Salmenta>
+    <Salmenta>
+        <id>12</id>
+        <orderId>12</orderId>
+        <priceTotal>907.5</priceTotal>
+        <priceUnit>375.0</priceUnit>
+        <produktua>
+            <productId>4</productId>
+            <productName>Iphone 11 64 GB</productName>
+        </produktua>
+        <quantity>2</quantity>
+    </Salmenta>
 </Salmentak>

@@ -89,5 +89,70 @@
         "priceUnit": 279.0,
         "priceTotal": 1012.77,
         "quantity": 3
+    },
+    {
+        "id": 8,
+        "orderId": 8,
+        "produktua": [
+            {
+                "productId": 7,
+                "productName": "Lenovo Thinkpad X1"
+            }
+        ],
+        "priceUnit": 1586.0,
+        "priceTotal": 9595.3,
+        "quantity": 5
+    },
+    {
+        "id": 9,
+        "orderId": 9,
+        "produktua": [
+            {
+                "productId": 1,
+                "productName": "Acer USB xagua"
+            }
+        ],
+        "priceUnit": 1.0,
+        "priceTotal": 2.0,
+        "quantity": 2
+    },
+    {
+        "id": 10,
+        "orderId": 10,
+        "produktua": [
+            {
+                "productId": 5,
+                "productName": "Apple Airpods"
+            }
+        ],
+        "priceUnit": 279.0,
+        "priceTotal": 337.59,
+        "quantity": 1
+    },
+    {
+        "id": 11,
+        "orderId": 11,
+        "produktua": [
+            {
+                "productId": 5,
+                "productName": "Apple Airpods"
+            }
+        ],
+        "priceUnit": 279.0,
+        "priceTotal": 337.59,
+        "quantity": 1
+    },
+    {
+        "id": 12,
+        "orderId": 12,
+        "produktua": [
+            {
+                "productId": 4,
+                "productName": "Iphone 11 64 GB"
+            }
+        ],
+        "priceUnit": 375.0,
+        "priceTotal": 907.5,
+        "quantity": 2
     }
 ]

@@ -1,8 +1,9 @@
 package dambi.pojoak;
 
+import java.sql.Date;
+
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import jakarta.xml.bind.annotation.XmlType;
 
 @XmlRootElement( name = "Bezeroa" )
 
@@ -16,6 +17,9 @@ public class Bezeroa {
     int phone;
     int mobile;
     int customer_rank;
+    boolean active;
+    String display_name;
+    Date create_date;
 
     public int getId() {
         return id;
@@ -43,6 +47,15 @@ public class Bezeroa {
     }
     public int getCustomerRank(){
         return customer_rank;
+    }
+    public boolean getActive(){
+        return active;
+    }
+    public String getDisplayName(){
+        return display_name;
+    }
+    public Date getCreateDate(){
+        return create_date;
     }
 
 
@@ -82,11 +95,23 @@ public class Bezeroa {
     public void setCustomerRank(int customerRank) {
         this.customer_rank = customerRank;
     }
+    @XmlElement(name = "active")
+    public void setActive(boolean active){
+        this.active = active;
+    }
+    @XmlElement(name = "displayName")
+    public void setDisplayName(String displayName){
+        this.display_name = displayName;
+    }
+    @XmlElement(name = "createDate")
+    public void setCreateDate(String dataStr){
+        this.create_date = Date.valueOf(dataStr);
+    }
 
     @Override
     public String toString() {
         return "Bezeroa [id=" + id + ", name=" + name + ", street=" + street + ", zip=" + zip + ", city=" + city
-                + ", email=" + email + ", phone=" + phone + ", mobile=" + mobile + ",customer rank" + customer_rank + "]";
+                + ", email=" + email + ", phone=" + phone + ", mobile=" + mobile + ",active= " + active + ",display name= " + display_name + ",customer rank: " + customer_rank + ",create date: " + create_date + "]";
     }
 
     

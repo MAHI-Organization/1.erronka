@@ -1,12 +1,9 @@
 package dambi.pojoak;
 
-import java.time.LocalDate;
 
-import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import jakarta.xml.bind.annotation.XmlType;
-import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
 
 //@XmlType( propOrder = { "id","orderId","priceUnit","priceTotal", "quantity"} )
 @XmlRootElement( name = "Salmenta" )

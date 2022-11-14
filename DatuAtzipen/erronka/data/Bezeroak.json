@@ -1,0 +1,16 @@
+[
+    {
+        "id" : 31,
+        "name" : "Jon Agirre",
+        "street" : "Plaza Auzoa",
+        "zip" : 20850,
+        "city" : "Mendaro",
+        "email" : "jonagirre@gmail.com",
+        "phone" : 945117841,
+        "mobile" : 665982144,
+        "active" : true,
+        "displayName" : "Jon Agirre",
+        "customerRank" : 1,
+        "createDate" : "2022-11-10"
+    }
+]

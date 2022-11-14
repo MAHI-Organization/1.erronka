@@ -1,0 +1,40 @@
+[
+    {
+        "id": 3,
+        "produktua": [
+            {
+                "productId": 6,
+                "productName": "Xbox Series X"
+            }
+        ],
+        "hornitzailea": [
+            {
+                "hornitzaileaId": 15,
+                "hornitzaileaName": "Microsoft",
+                "hornitzaileaEmail": "microsoft@outlook.com"
+            }
+        ],
+        "qtyReceived": 50,
+        "priceTotal": 30189.5,
+        "date": "2022-10-05"
+    },
+    {
+        "id": 4,
+        "produktua": [
+            {
+                "productId": 5,
+                "productName": "Apple Airpods"
+            }
+        ],
+        "hornitzailea": [
+            {
+                "hornitzaileaId": 17,
+                "hornitzaileaName": "Apple",
+                "hornitzaileaEmail": "apple@icloud.com"
+            }
+        ],
+        "qtyReceived": 10,
+        "priceTotal": 3375.89990234375,
+        "date": "2022-10-05"
+    }
+]

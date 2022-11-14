@@ -2,7 +2,7 @@ package dambi.pojoak;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import jakarta.xml.bind.annotation.XmlType;
+
 
 //@XmlType( propOrder = { "productId","productName"} )
 @XmlRootElement( name = "Produktua" )
@@ -30,6 +30,6 @@ public class Produktua {
     }
 
     public String toString(){
-        return "ProductId: " + productId + ", ProductName: " + productName;
+        return "[ProductId: " + productId + ", ProductName: " + productName +"]";
     }
 }

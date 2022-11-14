@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Bezeroak>
     <Bezeroa>
-        <id>26</id>
-        <name>Andoni Beristain</name>
-        <street>Deba</street>
-        <zip>20654</zip>
-        <city>Deba</city>
-        <email>andonib@gmail.com</email>
-        <phone>947120365</phone>
-        <mobile>697410205</mobile>
-    </Bezeroa>
-    <Bezeroa>
-        <id>27</id>
-        <name>Unai Garcia</name>
+        <id>30</id>
+        <name>Erik Garcia</name>
         <street>Elgoibar</street>
-        <zip>20900</zip>
+        <zip>20730</zip>
         <city>Elgoibar</city>
-        <email>unaig@gmail.com</email>
-        <phone>942150410</phone>
-        <mobile>641225354</mobile>
+        <email>erikg@gmail.com</email>
+        <phone>947366455</phone>
+        <mobile>697112001</mobile>
+        <active>true</active>
+        <displayName>Erik Garcia</displayName>
+        <customerRank>1</customerRank>
+        <createDate>2022-11-10</createDate>
     </Bezeroa>
+    
 </Bezeroak>

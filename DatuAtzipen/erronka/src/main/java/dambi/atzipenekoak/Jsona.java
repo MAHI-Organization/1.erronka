@@ -11,6 +11,10 @@ import javax.json.JsonReader;
 import javax.json.JsonStructure;
 import javax.json.JsonWriter;
 
+import dambi.pojoak.Bezeroa;
+import dambi.pojoak.Bezeroak;
+import dambi.pojoak.Erosketa;
+import dambi.pojoak.Erosketak;
 import dambi.pojoak.Produktua;
 import dambi.pojoak.Salmenta;
 import dambi.pojoak.Salmentak;
@@ -86,5 +90,71 @@ public class Jsona {
             System.out.println("Fitxategia sortzerakoan arazoak.");
         }
         return salmentaKopurua;
-    } 
+    }
+
+    public int idatzi(Erosketak erosketak){
+        int salmentaKopurua = 0;
+        JsonArray model = null;
+        JsonArrayBuilder jab = Json.createArrayBuilder();
+        for (Erosketa e : erosketak.getErosketak()) {
+            jab.add(Json.createObjectBuilder()
+                    .add("id", e.getId())
+                    .add("produktua",Json.createArrayBuilder()
+                        .add(Json.createObjectBuilder()
+                            .add("productId",e.getProduktua().getProductId())
+                            .add("productName", e.getProduktua().getProductName())))
+                    .add("hornitzailea",Json.createArrayBuilder()
+                        .add(Json.createObjectBuilder()
+                            .add("hornitzaileaId",e.getHornitzailea().getId())
+                            .add("hornitzaileaName", e.getHornitzailea().getName())
+                            .add("hornitzaileaEmail", e.getHornitzailea().getEmail())))
+                            
+                    .add("qtyReceived", e.getQty_received())
+                    .add("priceTotal", e.getPrice_total())
+                    .add("date", e.getCreate_date().toString())
+                    .build());
+            salmentaKopurua++;
+        }
+        model=jab.build();
+
+        try (JsonWriter jsonWriter = Json.createWriter(new FileOutputStream(strFileOut))) {
+            jsonWriter.writeArray(model);
+        } catch (FileNotFoundException fnfe) {
+            System.out.println("Fitxategia sortzerakoan arazoak.");
+        }
+        return salmentaKopurua;
+    }
+
+    public Bezeroak irakurriBezeroak() throws FileNotFoundException{
+
+        Bezeroak bezeroak = new Bezeroak();
+        try {
+            JsonReader reader = Json.createReader(new FileReader(strFileIn));
+            JsonStructure jsonst = reader.read();
+            JsonArray jsonarray = jsonst.asJsonArray();
+            
+            for (int i = 0; i < jsonarray.size(); i++) {
+                JsonObject jsonobj = jsonarray.getJsonObject(i);
+            
+                Bezeroa bezeroa = new Bezeroa();
+                bezeroa.setId(jsonobj.getInt("id"));
+                bezeroa.setName(jsonobj.getString("name"));
+                bezeroa.setStreet(jsonobj.getString("street"));
+                bezeroa.setZip(jsonobj.getInt("zip"));
+                bezeroa.setCity(jsonobj.getString("city"));
+                bezeroa.setEmail(jsonobj.getString("email"));
+                bezeroa.setPhone(jsonobj.getInt("phone"));
+                bezeroa.setMobile(jsonobj.getInt("mobile"));
+                bezeroa.setActive(jsonobj.getBoolean("active"));
+                bezeroa.setDisplayName(jsonobj.getString("displayName"));
+                bezeroa.setCustomerRank(jsonobj.getInt("customerRank"));
+                bezeroa.setCreateDate(jsonobj.getString("createDate"));
+                bezeroak.add(bezeroa);
+            }
+            
+        } catch (Exception e) {
+            System.out.println("Arazoak " + strFileIn + " fitxategia irakurtzerakoan.");
+        }
+        return bezeroak;
+    }
 }

@@ -3,6 +3,7 @@ package dambi.atzipenekoak;
 import java.io.File;
 
 import dambi.pojoak.Bezeroak;
+import dambi.pojoak.Erosketak;
 import dambi.pojoak.Produktua;
 import dambi.pojoak.Salmenta;
 import dambi.pojoak.Salmentak;
@@ -60,6 +61,24 @@ public class Xmla {
             e.printStackTrace();
         }
         return salmentak.getSalmentak().size();
+    }
+
+    public int idatzi(Erosketak erosketak){
+        try{
+            /* init jaxb marshaler */
+            JAXBContext jaxbContext = JAXBContext.newInstance( Erosketak.class );
+            Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+
+            /* set this flag to true to format the output */
+            jaxbMarshaller.setProperty( Marshaller.JAXB_FORMATTED_OUTPUT, true );
+
+            /* marshaling of java objects in xml (output to file and standard output) */
+            jaxbMarshaller.marshal( erosketak, new File( strFileOut ) );
+            jaxbMarshaller.marshal( erosketak, System.out );
+        }catch(JAXBException e){
+            e.printStackTrace();
+        }
+        return erosketak.getErosketak().size();
     }
 
     public Bezeroak irakurriBezeroak(){

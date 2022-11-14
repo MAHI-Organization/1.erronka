@@ -10,6 +10,7 @@ import java.util.Locale;
 
 import dambi.pojoak.Bezeroa;
 import dambi.pojoak.Bezeroak;
+import dambi.pojoak.Erosketak;
 import dambi.pojoak.Produktua;
 import dambi.pojoak.Salmenta;
 import dambi.pojoak.Salmentak;
@@ -58,6 +59,7 @@ public class Csva {
         return salmentak;
     }
 
+    //Idatzi salmentak
     public int idatzi(Salmentak salmentak) throws IOException{
         int guztira = 0;
         try {
@@ -77,6 +79,27 @@ public class Csva {
         return guztira;
     }
 
+    //Idatzi erosketak
+    public int idatzi(Erosketak erosketak) throws IOException{
+        int guztira = 0;
+        try {
+            PrintWriter outputStream = new PrintWriter(new FileWriter(strFileOut));
+            outputStream.printf("%s;%s;%s;%s;%s;%s;%s;%s;%s;", "ID","PRODUCT_ID","PRODUCT_NAME","PARTNER_ID","PARTNER NAME","EMAIL","QTY_RECEIVED","PRICE_TOTAL","DATE");
+            
+            for(int i = 0;i < erosketak.getErosketak().size();i++){
+                //Locale.US "0.0" bezala gordetzeko eta ez "0,0"
+                outputStream.printf(Locale.US,"\n %d;%d;%s;%d;%s;%s;%d;%f;%s;", erosketak.getErosketak().get(i).getId(),erosketak.getErosketak().get(i).getProduktua().getProductId(),erosketak.getErosketak().get(i).getProduktua().getProductName(),erosketak.getErosketak().get(i).getHornitzailea().getId(),
+                erosketak.getErosketak().get(i).getHornitzailea().getName(),erosketak.getErosketak().get(i).getHornitzailea().getEmail(),erosketak.getErosketak().get(i).getQty_received(),erosketak.getErosketak().get(i).getPrice_total(),erosketak.getErosketak().get(i).getCreate_date().toString());
+                guztira++;
+            }
+            outputStream.close();
+        }catch(FileNotFoundException e){
+            System.out.println("Ez da fitxategia aurkitu");
+        }
+        return guztira;
+    }
+
+    
     public Bezeroak irakurriBezeroak() throws IOException{
         Bezeroak bezeroak = new Bezeroak();
         try (BufferedReader inputStream = new BufferedReader(new FileReader(strFileIn))){
@@ -95,7 +118,10 @@ public class Csva {
                     bezeroa.setEmail(zutabeak[5]);
                     bezeroa.setPhone(Integer.parseInt(zutabeak[6]));
                     bezeroa.setMobile(Integer.parseInt(zutabeak[7]));
-                    bezeroa.setCustomerRank(Integer.parseInt(zutabeak[8]));
+                    bezeroa.setActive(Boolean.parseBoolean(zutabeak[8]));
+                    bezeroa.setDisplayName(zutabeak[9]);
+                    bezeroa.setCustomerRank(Integer.parseInt(zutabeak[10]));
+                    bezeroa.setCreateDate(zutabeak[11]);
                     bezeroak.add(bezeroa);
                 }
                 bezeroZenb++;

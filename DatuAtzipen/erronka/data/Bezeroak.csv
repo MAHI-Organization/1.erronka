@@ -1,3 +1,3 @@
-ID;NAME;STREET;ZIP;CITY;EMAIL;PHONE;MOBILE;CUSTOMER_RANK;
-24;Xabier Fernandez;Garagartza kalea;20850;Mendaro;xabierf@gmail.com;944122202;678543344;1;
-25;Aitor Martinez;Azpilgoeta kalea;20850;Mendaro;aitorm@gmail.com;945620100;644102302;1;
+ID;NAME;STREET;ZIP;CITY;EMAIL;PHONE;MOBILE;ACTIVE;DISPLAY_NAME;CUSTOMER_RANK;CREATE_DATE;
+24;Xabier Fernandez;Garagartza kalea;20850;Mendaro;xabierf@gmail.com;944122202;678543344;true;Xabier Fernandez;1;2022-11-11;
+25;Aitor Martinez;Azpilgoeta kalea;20850;Mendaro;aitorm@gmail.com;945620100;644102302;true;Aitor Martinez;1;2022-11-11;
