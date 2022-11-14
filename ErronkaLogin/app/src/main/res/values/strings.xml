@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ErronkaLogin</string>
+    <string name="erabiltzailea">Erabiltzailea</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="sartu">Sartu</string>
+    <string name="erosketak">Erosketak</string>
+    <string name="orderId">Order Id</string>
+    <string name="produktua">Produktua</string>
+    <string name="prezioa">Prezioa</string>
+    <string name="data">Data</string>
+</resources>
