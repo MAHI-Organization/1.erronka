@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Erronka</string>
+    <string name="spinner">SpinnerContent</string>
+    <string name="produktuak">Produktuak</string>
+    <string name="scrollView">ScrollViewContent</string>
+    <string name="salduenak">Produktu salduenak</string>
+    <string name="izena">Izena</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="login">Saioa hasi</string>
+    <string name="sartu">Sartu</string>
+</resources>
