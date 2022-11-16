@@ -2,9 +2,13 @@ package com.example.erronkalogin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -19,6 +23,8 @@ public class ErosketakActivity extends AppCompatActivity {
 
     TextView txtErabiltzailea;
     TableLayout erosketenTaula;
+    Button btnProduktuak;
+    ImageButton imgB;
 
     Connection conn;
     ArrayList<Erosketa> jasotakoErosketak = new ArrayList<>();
@@ -57,6 +63,34 @@ public class ErosketakActivity extends AppCompatActivity {
         }
        jasotakoErosketak = erosketakIkusiHaria.getErosketak();
         taulaBete();
+
+        btnProduktuak = findViewById(R.id.btnProduktuak);
+
+        btnProduktuak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Produktuak();
+            }
+        });
+
+        imgB = findViewById(R.id.iB);
+
+        imgB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Login();
+            }
+        });
+    }
+
+    private void Produktuak() {
+        Intent i = new Intent(getBaseContext(),Menua.class);
+        startActivity(i);
+    }
+
+    private void Login() {
+        Intent i = new Intent(getBaseContext(),LoginActivity.class);
+        startActivity(i);
     }
 
 

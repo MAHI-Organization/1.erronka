@@ -10,10 +10,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.ViewFlipper;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -21,13 +23,15 @@ import java.util.List;
 
 public class Menua extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    ViewFlipper carrusel;
     Spinner spinner;
-    ImageView imgProba;
+    // ImageView imgProba;
     KonektatuHaria db;
     ProduktuakIkusiHaria pih;
     ProduktuGuztiakIkusiHaria pgih;
     LinearLayout linearLayoutProduktuak;
-    Button btnSaioaHasi;
+    // Button btnSaioaHasi;
+    ImageButton btnSaioaHasi;
     Connection c;
 
     String kategoria = "Guztiak";
@@ -36,9 +40,17 @@ public class Menua extends AppCompatActivity implements AdapterView.OnItemSelect
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menua);
 
+        int images[] = {R.drawable.amd, R.drawable.monitor, R.drawable.raton, R.drawable.teclado};
+
+        carrusel = findViewById(R.id.carrusel);
+
+        for (int image: images) {
+            carruselImages(image);
+        }
+
         spinner = findViewById(R.id.spinnerProduktuak);
         linearLayoutProduktuak = findViewById(R.id.linearLayoutProduktuak);
-        btnSaioaHasi = findViewById(R.id.btnSaioaHasi);
+        btnSaioaHasi = findViewById(R.id.imgB);
 
         btnSaioaHasi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +70,7 @@ public class Menua extends AppCompatActivity implements AdapterView.OnItemSelect
         spinnerBete();
         spinner.setOnItemSelectedListener(this);
 
-        imgProba = findViewById(R.id.imageViewProba);
+        // imgProba = findViewById(R.id.imageViewProba);
        // db.selectArgazkiak();
         /*Bitmap argazkia = db.selectArgazkiak();
         if(argazkia != null){
@@ -66,6 +78,18 @@ public class Menua extends AppCompatActivity implements AdapterView.OnItemSelect
         }else{
             System.out.println("Ez dago argazkirik");
         }*/
+    }
+
+    public void carruselImages(int image) {
+        ImageView imageView = new ImageView(this);
+        imageView.setBackgroundResource(image);
+
+        carrusel.addView(imageView);
+        carrusel.setFlipInterval(3000);
+        carrusel.setAutoStart(true);
+
+        carrusel.setInAnimation(this, android.R.anim.slide_in_left);
+        carrusel.setOutAnimation(this, android.R.anim.slide_out_right);
     }
 
     private void spinnerBete(){

@@ -50,8 +50,8 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="1000dp"
+        android:layout_width="729dp"
+        android:layout_height="975dp"
         android:contentDescription="@string/scrollView"
         android:paddingBottom="75dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,8 +74,9 @@
 
             <ViewFlipper
                 android:id="@+id/carrusel"
-                android:layout_width="match_parent"
+                android:layout_width="427dp"
                 android:layout_height="149dp"
+                android:layout_marginLeft="162dp"
                 android:paddingLeft="7dp"
                 android:paddingRight="25dp">
 
@@ -85,6 +86,7 @@
                 android:id="@+id/textViewProduktuak"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/produktuak"
                 android:textColor="@color/black"
@@ -94,6 +96,7 @@
                 android:id="@+id/spinnerProduktuak"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:contentDescription="@string/spinner"
                 android:minHeight="48dp" />
 

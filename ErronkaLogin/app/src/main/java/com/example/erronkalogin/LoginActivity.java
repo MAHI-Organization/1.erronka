@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.sql.Connection;
 
@@ -16,6 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText editTextIzena;
     EditText editTextPasahitza;
     Button btnSartu;
+    Button btnAtzera;
     Connection c;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         btnSartu = findViewById(R.id.btnSartu);
+        btnAtzera = findViewById(R.id.btnAtzera);
         editTextIzena = findViewById(R.id.editTextIzena);
         editTextPasahitza = findViewById(R.id.editTextPasahitza);
 
@@ -59,6 +62,14 @@ public class LoginActivity extends AppCompatActivity {
                     Log.d("Erabiltzailea","Ez da existitzen");
                 }
 
+            }
+        });
+
+        btnAtzera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getBaseContext(),Menua.class);
+                startActivity(i);
             }
         });
     }

@@ -15,4 +15,6 @@
     <string name="login">Saioa hasi</string>
     <string name="produktuak">Produktuak</string>
     <string name="spinner">SpinnerContent</string>
+    <string name="btnAtzera">Atzera</string>
+    <string name="btnProduktuak">Produktuak Ikusi</string>
 </resources>
