@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="darkGreyRow">#5C5C5C</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ErronkaLogin</string>
+    <string name="btnAtzera">Atzera</string>
+    <string name="btnProduktuak">Produktuak Ikusi</string>
+    <string name="data">Data</string>
+    <string name="erabiltzailea">Erabiltzailea</string>
+    <string name="erosketak">Erosketak</string>
+    <string name="kantitatea">Kantitatea</string>
+    <string name="login">Saioa hasi</string>
+    <string name="name">Izena</string>
+    <string name="orderId">Order Id</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="prezioa">Prezioa</string>
+    <string name="produktua">Produktua</string>
+    <string name="produktuak">Produktuak</string>
+    <string name="salduenak">Produktu salduenak</string>
+    <string name="sartu">Sartu</string>
+    <string name="scrollView">ScrollViewContent</string>
+    <string name="spinner">SpinnerContent</string>
+    <style name="Theme.ErronkaLogin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
