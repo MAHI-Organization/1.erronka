@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Erosketak>
+    <Erosketa>
+        <createDate/>
+        <hornitzailea>
+            <email>Intel@gmail.com</email>
+            <id>7</id>
+            <name>Intel</name>
+        </hornitzailea>
+        <id>1</id>
+        <priceTotal>302.5</priceTotal>
+        <produktua>
+            <productId>6</productId>
+            <productName>Logitech G413 SE Teclado Mecánico Gaming Retroiluminado</productName>
+        </produktua>
+        <qtyReceived>5</qtyReceived>
+    </Erosketa>
+</Erosketak>
