@@ -354,6 +354,7 @@
             this.listView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(39)))));
             this.listView.ForeColor = System.Drawing.SystemColors.Info;
             this.helpProvider1.SetHelpKeyword(this.listView, "");
+            this.helpProvider1.SetHelpString(this.listView, "Informazio guztia bistaratzen da!");
             this.listView.HideSelection = false;
             this.listView.Location = new System.Drawing.Point(307, 60);
             this.listView.Name = "listView";
@@ -547,6 +548,10 @@
             this.Controls.Add(this.erronka_grafikoa2);
             this.Controls.Add(this.erronka_grafikoa1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.Yellow;
