@@ -1,0 +1,8 @@
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\bin\Debug\erronka1DLL.dll
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\bin\Debug\erronka1DLL.pdb
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.csproj.AssemblyReference.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.csproj.GenerateResource.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.csproj.CoreCompileInputs.cache
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.dll
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.pdb
+C:\Users\olivas.hodei\Desktop\DAM2\ERRONKA\erronka1DLL\erronka1DLL\obj\Debug\erronka1DLL.erronka_grafikoa.resources
