@@ -8,8 +8,8 @@
     tools:context=".Menua">
 
     <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="1000dp"
+        android:layout_width="689dp"
+        android:layout_height="993dp"
         android:contentDescription="@string/scrollView"
         android:paddingBottom="350dp"
         app:layout_constraintEnd_toEndOf="parent"
