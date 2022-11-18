@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ErronkaLogin</string>
+    <string name="erabiltzailea">Erabiltzailea</string>
+    <string name="pasahitza">Pasahitza</string>
+    <string name="sartu">Sartu</string>
+    <string name="salmentak">Salmentak</string>
+    <string name="orderId">Order Id</string>
+    <string name="produktua">Produktua</string>
+    <string name="prezioa">Prezioa</string>
+    <string name="data">Data</string>
+    <string name="name">Izena</string>
+    <string name="kantitatea">Kantitatea</string>
+    <string name="scrollView">Scroll</string>
+    <string name="salduenak">Produktu salduenak</string>
+    <string name="login">Saioa hasi</string>
+    <string name="produktuak">Produktuak</string>
+    <string name="spinner">Spinnner</string>
+    <string name="btnProduktuak">Produktuak ikusi</string>
+    <string name="guztiak">Guztiak</string>
+    <string name="arratoiak">Arratoiak</string>
+    <string name="teklatuak">Teklatuak</string>
+    <string name="prozesadoreak">Prozesadoreak</string>
+    <string name="monitoreak">Monitoreak</string>
+</resources>
