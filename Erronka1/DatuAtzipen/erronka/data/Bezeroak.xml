@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Bezeroak>
+    <Bezeroa>
+        <id>43</id>
+        <name>Erik Garcia</name>
+        <street>Elgoibar</street>
+        <zip>20730</zip>
+        <city>Elgoibar</city>
+        <email>erikg@gmail.com</email>
+        <phone>947366455</phone>
+        <mobile>697112001</mobile>
+        <active>true</active>
+        <displayName>Erik Garcia</displayName>
+        <customerRank>1</customerRank>
+        <createDate>10-11-2022</createDate>
+    </Bezeroa>
+    
+</Bezeroak>
